@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *Temp;
+@property (weak, nonatomic) IBOutlet UILabel *Humid;
+- (IBAction)Refresh:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *Dato;
 
 @end
